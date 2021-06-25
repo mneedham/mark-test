@@ -4,4 +4,4 @@ import os
 class Bitemporal(unittest.TestCase):
   def test_foo(self):
     env_var = os.environ.get("secrets.MARK_KEY")
-    self.assertIsNotNone(env_var, "no env var")
+    self.assertIsNotNone(env_var, "no env var secrets.MARK_KEY")
